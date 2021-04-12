@@ -1,0 +1,19 @@
+{
+  "name": "flexbox-layout-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentmegia/flexbox-layout-01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vincentmegia/flexbox-layout-01/issues"
+  },
+  "homepage": "https://github.com/vincentmegia/flexbox-layout-01#readme"
+}
