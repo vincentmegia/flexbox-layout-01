@@ -2,11 +2,15 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="index.css" media="all">
 	</head>
 	<body>
-		<nav>
-			This is the header
+		<nav class="navigation">
+			<ul class="navigation-container">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#profile">Profile</a></li>
+				<li><a href="#about">About</a></li>
+			</ul>
 		</nav>
 		<section class="sections">
 			<section class="section-common section-one">
@@ -18,8 +22,8 @@
 			</section>
 			<section class="section-common section-two">
 				<article class="section-two-article-one">
-					<div class="article-avatar-container">
-						<img src="avatar-01.png">
+					<div class="avatar-container">
+						<img src="assets/images/avatar-01.jpg" loading="lazy" alt="avatar-01">
 					</div>
 					<div class="article-content">
 						<h3>John Doe, Senior Software Engineer 1</h3>
@@ -31,8 +35,8 @@
 					</div>
 				</article>
 				<article class="section-two-article-one">
-					<div class="article-avatar-container">
-						<img src="avatar-01.png">
+					<div class="avatar-container">
+						<img src="assets/images/avatar-02.png" loading="lazy">
 					</div>
 					<div class="article-content">
 						<h3>John Doe, Senior Software Engineer 2</h3>
@@ -44,8 +48,8 @@
 					</div>
 				</article>
 				<article class="section-two-article-one">
-					<div class="article-avatar-container">
-						<img src="avatar-01.png">
+					<div class="avatar-container">
+						<img src="assets/images/avatar-03.png" loading="lazy">
 					</div>
 					<div class="article-content">
 						<h3>John Doe, Senior Software Engineer 3</h3>
